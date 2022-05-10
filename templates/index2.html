@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <link rel="stylesheet" href="static/css/style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="header_main col-lg-12">
+                    <div class="header_name">
+                        <img src="{{ img }}/logo.png" alt="" class="site_name">
+                    </div>
+                    <div class="header_enterance_btn">
+                        <a href="/2"><button class="enterance_btn">Выйти</button></a>
+                    </div>
+                    <div class="header_signup_btn">
+                        <p>{{ name }}</p>
+                    </div>
+                    <div class="header_shop_logo">
+                        <img src="https://vipusk-work.netlify.app/pic/logo/icons8-%D1%81%D1%83%D0%BC%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BF%D0%BE%D0%BA%D1%83%D0%BF%D0%BE%D0%BA-100.png" alt="bag" class="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="pushkin">
+            <div class="container">
+                <div class="row">
+                    <div class="pushkin__description col-xl-5">
+                        <h2 class="pushkin__text1">Трактир «Пушкин»</h2>
+                        <p class="pushkin__text2">₽₽₽ • Европейская</p>
+                        <button class="pushkin__button">40 - 50 мин</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 menu-wrapper">
+                        <ul class="menu__list">
+                            <li class="menu__item">Закуски</li>
+                            <li class="menu__item">Салаты</li>
+                            <li class="menu__item">Супы</li>
+                            <li class="menu__item">Горячие блюда</li>
+                            <li class="menu__item">Гарниры</li>
+                            <li class="menu__item">Десерты</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="snacks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 snacks__header">
+                    <h3 class="snacks__header-text">Закуски</h3>
+                    </div>
+                    <div class="col-xl-6 snacks-item">
+                        <div class="snacks-item__flex">
+                            <p class="snacks-item__first-des">Сельдь на бородинском хлебе </p>
+                            <p class="snacks-item__second-des">С яйцом и огурцом</p>
+                            <p class="snacks-item__price">240 ₽</p>
+                        </div>
+                        <img src="{{ img }}/1.png" alt="sa" class="snacks-item-image">
+                    </div>
+                    <div class="col-xl-6 snacks-item">
+                        <div class="snacks-item__flex">
+                            <p class="snacks-item__first-des">Соленья ассорти</p>
+                            <p class="snacks-item__price">320 ₽</p>
+                        </div>  
+                        <img src="{{ img }}/2.png" alt="das" class="snacks-item-image">
+                    </div>
+                    <div class="col-xl-6 snacks-item">
+                        <div class="snacks-item__flex">
+                            <p class="snacks-item__first-des">Грибы маринованные</p>
+                            <p class="snacks-item__price">300 ₽</p>
+                        </div>
+                        <img src="{{ img }}/3.png" alt="ds" class="snacks-item-image">
+                    </div>
+                    <div class="col-xl-6 snacks-item">
+                        <div class="snacks-item__flex">
+                            <p class="snacks-item__first-des">Сало домашнее с горчицей</p>
+                            <p class="snacks-item__price">320 ₽</p>
+                        </div>
+                        <img src="{{ img }}/4.png" alt="ds" class="snacks-item-image">
+                    </div>
+                    <div class="col-xl-6 snacks-item">
+                        <div class="snacks-item__flex">
+                            <p class="snacks-item___first-des">Малосольная семга</p>
+                            <p class="snacks-item__price">390 ₽</p>
+                        </div>
+                        <img src="{{ img }}/5.png" alt="ds" class="snacks-item-image">
+                    </div>
+                    <div class="col-xl-6 snacks-item">
+                        <div class="snacks-item__flex">
+                            <p class="snacks-item__first-des">Язык говяжий с хреном</p>
+                            <p class="snacks-item__price">350 ₽</p>
+                        </div>
+                        <img src="{{ img }}/6.png" alt="fd" class="snacks-item-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="footer_header">
+                        <img src="{{ img }}/white-logo.png" alt="logo" class="footer_logo">
+                    </div>
+                    <div class="footer_main">
+                        <div class="container">
+                            <div class="row">
+                                <div class="footer_main_1 col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                                    <div class="div_select">
+                                        <img src="{{ img }}/world.png" alt="" class="select_image">
+                                        <select>
+                                            <option>Русский</option>
+                                        </select>
+                                    </div>
+                                    <p class="hashtag_text"><span class="hashtag">#</span>Uber eats</p>
+                                    <div class="social_logo">
+                                        <img src="{{ img }}/facebook.png" alt="fb" class="facebook">
+                                        <img src="{{ img }}/twitter.png" alt="tw" class="twitter">
+                                        <img src="{{ img }}/instagram.png" alt="insta" class="instagram">
+                                    </div>
+                                </div>
+                                <div class="footer_text_list_1 col-xl-offset-1 col-xl-3 col-lg-offset-1 col-lg-3 col-md-offset-1 col-md-3 col-sm-12">
+                                    <ul class="text_list">
+                                        <li>Об UberEats</li>
+                                        <li>Станьте партнёром по доставке</li>
+                                        <li>Станьте парнёром-рестораном</li>
+                                    </ul>
+                                </div>
+                                <div class="footer_text_list_2 col-xl-offset-1 col-xl-3 col-lg-offset-1 col-lg-3 col-md-offset-1 col-md-3 col-sm-12">
+                                    <ul class="text_list">
+                                        <li>Все города</li>
+                                        <li>Цены</li>
+                                        <li>Помощь</li>
+                                        <li>FAQs</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_main_2">
+                        <div class="div_appstore"><a href=""><img src="{{ img }}/appstore.png" alt="appstore" class="button_appstore button_of_shop"></a></div>
+                        <div class="div_googleplay"><a href=""><img src="{{ img }}/googleplay.png" alt="googleplay" class="button_google_play button_of_shop"></a></div>
+                    </div>
+                    <div class="footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <p><a href="">© 2017 Uber Technologies Inc.</a></p>
+                                </div>
+                                <div class="col-xl-4">
+                                    <p><a href="">Обработка персональных данных</a></p>
+                                </div>
+                                <div class="col-xl-4">
+                                    <p><a href="">Пользовательское соглашение</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
